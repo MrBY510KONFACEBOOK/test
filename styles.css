@@ -1,0 +1,130 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('/img/bac.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+/* Navbar styling */
+/* Navbar styling */
+/* Navbar styling */
+header {
+    background-color: rgba(34, 87, 221, 0.74);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* توسيع المسافة بين الشعار والقائمة */
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* تعديل الأسلوب للحفاظ على المسافة بين العناصر */
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px; /* تعديل المسافة بين عناصر القائمة */
+}
+
+
+/* Search Section styling */
+#search {
+    /* Add styles for the search section if needed */
+}
+
+/* Featured Apartments styling */
+#featured-apartments {
+    /* Add styles for the featured apartments section if needed */
+}
+
+/* Registration/Login Form styling */
+#auth {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+#login-form,
+#signup-form {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 51, 51, 0.77);
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Results Container styling */
+#results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.property {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.details {
+    padding: 10px;
+    background-color: rgba(221, 227, 240, 0.74);
+}
+
+/* Button styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(34, 87, 221, 0.74);
+}

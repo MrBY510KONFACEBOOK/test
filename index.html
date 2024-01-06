@@ -1,0 +1,55 @@
+<!-- HTML File: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Student House</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <img src="/img/logo.jpg" alt="Your Logo" id="logo">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/co/login_firbase_quiz_verify/login.html">Login</a></li>
+                <li><a href="/co/login_firbase_quiz_verify/signup.html">Create New Account</a></li>
+                <li><a href="/contact/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Search Section -->
+    <section id="search">
+        <h2>Advanced Search</h2>
+        <form id="search-form">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Enter location">
+
+            <label for="min-price">Min Price:</label>
+            <input type="number" id="min-price" name="min-price" placeholder="Min Price">
+
+            <label for="max-price">Max Price:</label>
+            <input type="number" id="max-price" name="max-price" placeholder="Max Price">
+
+            <label for="bedrooms">Bedrooms:</label>
+            <select id="bedrooms" name="bedrooms">
+                <option value="1">1 Bedroom</option>
+                <option value="2">2 Bedrooms</option>
+                <option value="3">3 Bedrooms</option>
+                <option value="4+">4+ Bedrooms</option>
+            </select>
+
+            <button type="button" onclick="searchApartments()">Search</button>
+        </form>
+    </section>
+
+    <!-- Container for Results -->
+    <section id="results-container"></section>
+
+    <!-- Include JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
